@@ -12,24 +12,43 @@
     text-transform: uppercase;
     border-radius: 5px;
   }
-  
+
   .default {
-    background-color: #51ddfc;
+    @include fade;
+    background-color:#f151fc;
+    &:hover {
+      background: lighten($color: #f151fc, $amount: 15%);
+    }
   }
   
   .error {
-    background-color: #e4757a;
+    @include fade;
+    background-color:#e4757a;
+    &:hover {
+      background: lighten($color: #e4757a, $amount: 15%);
+    }
   }
   
   .info {
-    background-color: #927bc1;
+    @include fade;
+    background-color:#927bc1;
+    &:hover {
+      background: lighten($color: #927bc1, $amount: 15%);
+    }
   }
   
   .success {
-    background-color: #63cc82;
+    @include fade;
+    background-color:#63cc82;
+    &:hover {
+      background: lighten($color: #63cc82, $amount: 15%);
+    }
   }
   
   .warning {
+    @include fade;
     background-color: #fd7856;
+    &:hover {
+      background: lighten($color: #fd7856, $amount: 15%);
+    }
   }
-  
