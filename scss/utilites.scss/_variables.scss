@@ -1,21 +1,14 @@
 $white: #fff;
-$color-background-btn: #f410da;
-$color-primary: #83f785;
+$grey: #a19d9d;
+$color-primary: #58e1c1;
 $color-primary-border: #aaf1b3;
 $color-primary-text: #757474;
-$color-btn-1: #9973e3;
-$color-btn-2: #002efd;
-$color-btn-3: #ed3232;
-$color-btn-4: #09c4e1;
-$color-btn-5: #72e059;
-$color-link: #f5e96a;
-
-// button complements
-$complement-1: complement($color-btn-1);
-$complement-2: complement($color-btn-2);
-$complement-3: complement($color-btn-3);
-$complement-4: complement($color-btn-4);
-$complement-5: complement($color-btn-5);
+$color-btn-1: #51ddfc;
+$color-btn-2: #e4757a;
+$color-btn-3:  #927bc1;
+$color-btn-4: #63cc82;
+$color-btn-5: #fd7856;
+$color-link: #51ddfc;
 
 // Breakpoint
 $break: 768px;

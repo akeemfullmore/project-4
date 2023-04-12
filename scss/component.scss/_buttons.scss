@@ -17,7 +17,7 @@
     @include fade;
     background-color: $color-btn-1;
     &:hover {
-      background: lighten($color: $complement-1, $amount: 15%);
+      background: lighten($color: $color-btn-1, $amount: 15%);
     }
   }
   
@@ -25,7 +25,7 @@
     @include fade;
     background-color: $color-btn-2;
     &:hover {
-      background: lighten($color: $complement-2, $amount: 15%);
+      background: lighten($color: $color-btn-2, $amount: 15%);
     }
   }
   
@@ -33,7 +33,7 @@
     @include fade;
     background-color: $color-btn-3;
     &:hover {
-      background: lighten($color: $complement-3, $amount: 15%);
+      background: lighten($color: $color-btn-3, $amount: 15%);
     }
   }
   
@@ -41,7 +41,7 @@
     @include fade;
     background-color: $color-btn-4;
     &:hover {
-      background: lighten($color: $complement-4, $amount: 15%);
+      background: lighten($color: $color-btn-4, $amount: 15%);
     }
   }
   
@@ -49,6 +49,6 @@
     @include fade;
     background-color: $color-btn-5;
     &:hover {
-      background: lighten($color: $complement-5, $amount: 15%);
+      background: lighten($color: $color-btn-5, $amount: 15%);
     }
   }
