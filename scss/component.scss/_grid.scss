@@ -45,6 +45,8 @@
   }
   
   .theme.col-7 {
+    @include centered;
+    text-align: center;
     background-color: #ec9fa3;
   }
   
