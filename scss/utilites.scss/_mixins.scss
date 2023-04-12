@@ -4,3 +4,6 @@
     margin-right: auto;
     @content;
 }
+@mixin fade {
+    transition: background 1.5s;
+}
