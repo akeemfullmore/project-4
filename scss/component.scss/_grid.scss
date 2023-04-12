@@ -13,7 +13,6 @@
   }
   
   [class^=col] {
-    @include centered;
     margin-top: 10px;
     flex-basis: 100%;
     min-height: 25px;
